@@ -1,0 +1,131 @@
+
+.py-6{
+    padding: 6em 0;
+}
+.py-7{
+    padding: 6em 0;
+}
+
+
+.content {
+    min-height: 550px;
+}
+
+/* Content 1 */
+.content-1{
+    background-color: rgb(219, 219, 219);
+}
+
+.heading-content1 {
+    color: #2f495e;
+}
+
+.heading-content1 span{
+    color: #00c58e;
+    margin-left: 5px;
+}
+
+.content-1 p{
+
+        color: #4b5153;
+
+}
+
+.nuxt-link{
+    background-color: #00c58e;
+    padding: 5px 15px;
+    border-radius: 10px;
+    transition: .5s;
+    text-decoration: none;
+    color: #fff;
+}
+
+.nuxt-link:hover{
+    background-color: #0a976f;
+    color: #fff;
+}
+
+/* Content 2 */
+
+.content-2{
+    margin: 20px 0;
+}
+
+.content-2 .nuxt{
+    color: #2f495e;
+}
+
+.content-2 .nuxt span{
+    color: #00c58e;
+    margin-left: 3px;
+}
+
+.content-2 .row {
+    padding: 30px 0;
+}
+
+.content-2 .row .card-title{
+    color: #2f495e;
+}
+
+.content-2 .row .card-text{
+    color: #6c7579;
+}
+
+.content-2 .row .card-body{
+    min-height: 300px;
+}
+
+.content-2 .card .card-img-top{
+    padding-top: 20px;
+    height: 200px;
+}
+
+/* Content 3 */
+
+.content-3{
+    background-color: rgb(219, 219, 219);
+    padding: 40px 0;
+}
+
+.content-3 .row{
+    margin: 20px 0;
+}
+
+.content-3 .img{
+    width: 100%;
+    height: 200px;
+}
+
+.content-3 .fitur{
+    padding-left: 40px ;
+}
+
+
+/* Content 4 */
+
+.content-4{
+    padding: 20px 0;
+}
+
+
+.content-4 .row .card-title{
+    color: #2f495e;
+}
+
+.content-4 .row .card-text{
+    color: #6c7579;
+}
+
+.content-4 .row .card-body{
+    min-height: 350px;
+}
+
+.content-4 .card .card-img-top{
+    padding: 20px 0;
+    height: 300px;
+}
+
+.content-4 .card .card-title {
+    margin: 20px 0;
+}

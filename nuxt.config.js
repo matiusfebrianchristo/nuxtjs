@@ -17,12 +17,14 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    '~/node_modules/bootstrap/dist/css/bootstrap.css'
+    '~/node_modules/bootstrap/dist/css/bootstrap.min.css',
+    '@/assets/css/main.css'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-    // {src:'@/plugins/bootstrap.js', mode:'client'}
+    {src:'~/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js', mode:'client'}
+    
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
