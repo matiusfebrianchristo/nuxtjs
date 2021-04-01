@@ -12,7 +12,7 @@
                   <p>
                     <strong>Nuxt</strong> atau <strong>NuxtJs</strong> adalah sebuah framework yang dapat kita digunakan untuk membuat <i>Universal VueJS Application</i>. Pada dasarnya ketika kita membuat sebuah aplikasi menggunakan framework/library javascript semacam Vue, React atau Angular kita akan mendapatkan kendala dari sisi <i>Search Engine Optimization</i>.
                   </p>
-                  <nuxt-link to="/management" class="nuxt-link">Mulai</nuxt-link>
+                  <nuxt-link to="/management/1" class="nuxt-link">Mulai</nuxt-link>
                 </div>
               </div>
             </div>
@@ -45,7 +45,7 @@
                   <p>
                     <strong>Nuxt</strong> atau <strong>NuxtJs</strong> adalah sebuah framework yang dapat kita digunakan untuk membuat <i>Universal VueJS Application</i>. Pada dasarnya ketika kita membuat sebuah aplikasi menggunakan framework/library javascript semacam Vue, React atau Angular kita akan mendapatkan kendala dari sisi <i>Search Engine Optimization</i>.
                   </p>
-                  <nuxt-link to="/management" class="nuxt-link">Mulai</nuxt-link>
+                  <nuxt-link to="/management/1" class="nuxt-link">Mulai</nuxt-link>
                 </div>
               </div>
             </div>

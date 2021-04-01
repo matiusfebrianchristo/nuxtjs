@@ -40,8 +40,15 @@ export default {
     '@nuxtjs/axios',
   ],
 
+  env: {
+    mainPath: process.env.MAIN_PATH || 'https://jsonplaceholder.typicode.com/posts'
+  },
+
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
-  axios: {},
+  axios: {
+    BaseURL: process.env.MAIN_PATH || 'https://jsonplaceholder.typicode.com/posts',
+    credentials: false
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
